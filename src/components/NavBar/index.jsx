@@ -1,10 +1,28 @@
+import Cart from "../../assets/svg/cart.svg";
 import Logo from "../Logo";
+import styles from "./index.module.css";
 
 const NavBar = () => {
   return (
-    <div>
-      <Logo />
-    </div>
+    <nav className={styles.nav}>
+      {/* Logo */}
+      <div className={styles.nav_logo}>
+        <Logo />
+      </div>
+
+      <div className={styles.nav_items}>
+        <a href="/home">Home</a>
+        <a href="/programs">Programs</a>
+        <a href="/about">About</a>
+      </div>
+      <div>
+        <div>
+          <img src={Cart} alt="cart" />
+        </div>
+        {/* Login */}
+        {/* Sign Up */}
+      </div>
+    </nav>
   );
 };
 
