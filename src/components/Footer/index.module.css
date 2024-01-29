@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+  background: #08172d;
+}
+
+.footer_logo {
+  max-width: 250px;
+}
+
+.footer_logo_text {
+  margin: 5px 0 0 0;
+  font-size: 13px;
+  color: #bbb6b6e8;
+}
+
+.footer_nav {
+  display: flex;
+  gap: 10px;
+}

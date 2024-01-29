@@ -1,11 +1,18 @@
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import styles from "./index.module.css";
+
 const Main = () => {
   return (
-    <div>
-      {/* Navbar */}
-      {/* Content */}
-      {/* Footer */}
-      <p>Main</p>
-    </div>
+    <>
+      <NavBar />
+
+      <div className={styles.main}>
+        <p>Main</p>
+      </div>
+
+      <Footer />
+    </>
   );
 };
 
