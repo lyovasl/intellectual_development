@@ -1,12 +1,19 @@
+import { Route, Router, Routes } from "react-router";
 import "./App.css";
 import Main from "./layouts/Main";
 
 function App() {
   return (
     <>
-      <div className="w">
-        <Main />
-      </div>
+      <Router>
+        <div className="w">
+          <Routes>
+            <Route path="/">
+              <Main />
+            </Route>
+          </Routes>
+        </div>
+      </Router>
     </>
   );
 }
