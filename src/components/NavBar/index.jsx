@@ -5,7 +5,6 @@ import styles from "./index.module.css";
 const NavBar = () => {
   return (
     <nav className={styles.nav}>
-      {/* Logo */}
       <div className={styles.nav_logo}>
         <Logo />
       </div>
