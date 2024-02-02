@@ -11,7 +11,7 @@ const NavBar = () => {
 
       <div className={styles.nav_items}>
         <a href="/home">Home</a>
-        <a href="/programs">Programs</a>
+        <a href="/search">Search</a>
         <a href="/about">About</a>
       </div>
       <div>

@@ -2,7 +2,7 @@ import Logo from "../Logo";
 import styles from "./index.module.css";
 
 const Footer = () => {
-  const links = ["home", "programs", "about", "contact", "blog"];
+  const links = ["home", "search", "about", "contact", "blog"];
 
   return (
     <footer className={styles.footer}>
