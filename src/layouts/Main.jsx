@@ -2,14 +2,12 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import styles from "./index.module.css";
 
-const Main = () => {
+const Main = ({ children }) => {
   return (
     <>
       <NavBar />
 
-      <div className={styles.main}>
-        <p>Main</p>
-      </div>
+      <div className={styles.main}>{children} </div>
 
       <Footer />
     </>
