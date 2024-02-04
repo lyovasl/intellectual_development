@@ -1,6 +1,7 @@
-.trainer_title {
-  color: #000;
-  font-weight: 700;
-  font-size: 24px;
-  margin: 0;
+.trainer_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+

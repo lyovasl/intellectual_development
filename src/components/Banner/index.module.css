@@ -1,4 +1,5 @@
 .banner {
+  margin-bottom: 40px;
   background-color: #064bb4;
   display: flex;
   justify-content: center;
@@ -16,7 +17,6 @@
   margin: 0 0 10px 0;
   letter-spacing: 2px;
 }
-
 
 .banner_subtitle {
   margin-bottom: 20px;
