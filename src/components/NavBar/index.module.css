@@ -15,3 +15,7 @@
 .nav_logo {
   padding: 5px;
 }
+
+.nav_active:active {
+  color: red;
+}

@@ -1,0 +1,31 @@
+.banner {
+  background-color: #064bb4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.banner_text {
+  width: 600px;
+}
+
+.banner_title {
+  font-size: 62px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  letter-spacing: 2px;
+}
+
+
+.banner_subtitle {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.banner_img {
+  overflow: hidden;
+  height: 700px;
+  flex: 1;
+}

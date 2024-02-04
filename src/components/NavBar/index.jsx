@@ -1,5 +1,6 @@
 import Cart from "../../assets/svg/cart.svg";
 import Logo from "../Logo";
+import NavLinks from "../NavLinks";
 import styles from "./index.module.css";
 
 const NavBar = () => {
@@ -10,9 +11,7 @@ const NavBar = () => {
       </div>
 
       <div className={styles.nav_items}>
-        <a href="/home">Home</a>
-        <a href="/search">Search</a>
-        <a href="/about">About</a>
+        <NavLinks />
       </div>
       <div>
         <div>

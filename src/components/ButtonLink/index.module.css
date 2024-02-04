@@ -1,0 +1,9 @@
+.button_link {
+  font-size: 16px;
+  color: #1c1c1e;
+  padding: 16px 32px;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #bcff5e;
+  border-radius: 25px;
+}
