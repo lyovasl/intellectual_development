@@ -1,9 +1,14 @@
+import ButtonLink from "../ButtonLink";
+import SectionTitle from "../SectionTitle";
 import styles from "./index.module.css";
 
 const TopTrainers = () => {
   return (
     <>
-      <h3 className={styles.trainer_title}>TopTrainers</h3>
+      <div className={styles.trainer_heading}>
+        <SectionTitle title="TopTrainers" />
+        <ButtonLink text="Our Trainers" path="/trainers" />
+      </div>
       <div>{/*  */}</div>
     </>
   );
