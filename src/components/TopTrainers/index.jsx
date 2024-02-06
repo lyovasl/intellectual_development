@@ -1,8 +1,11 @@
+import useGetTrainers from "../../hooks/useGetTrainers";
 import ButtonLink from "../ButtonLink";
 import SectionTitle from "../SectionTitle";
 import styles from "./index.module.css";
 
 const TopTrainers = () => {
+  useGetTrainers();
+
   return (
     <>
       <div className={styles.trainer_heading}>
