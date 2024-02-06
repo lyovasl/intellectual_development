@@ -9,7 +9,8 @@ const TopTrainers = () => {
         <SectionTitle title="TopTrainers" />
         <ButtonLink text="Our Trainers" path="/trainers" />
       </div>
-      <div>{/*  */}</div>
+      {/* trainers */}
+      <div className={styles.section_banner}></div>
     </>
   );
 };

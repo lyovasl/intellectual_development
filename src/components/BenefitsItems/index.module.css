@@ -1,0 +1,20 @@
+.items {
+  padding: 8px;
+  display: flex;
+  max-width: 358px;
+  height: 160px;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+  color: gray;
+  border-radius: 15px;
+  box-shadow: 0px 0px 38px 0px rgba(8, 52, 226, 0.2);
+}
+
+.items_title {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+.items_text {
+  margin: 0;
+}
