@@ -1,0 +1,26 @@
+.section_banner {
+  padding: 15px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #3b4ece;
+  display: flex;
+  gap: 45px;
+  justify-content: space-around;
+}
+
+.section_banner_text {
+  max-width: 500px;
+}
+
+.section_banner_title {
+  margin: 0 0 15px 0;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.section_banner_img {
+  overflow: hidden;
+  width: 400px;
+  height: 180px;
+  border-radius: 40px;
+}

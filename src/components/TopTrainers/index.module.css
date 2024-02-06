@@ -4,4 +4,7 @@
   align-items: center;
 }
 
-
+.section_banner {
+  height: 32px;
+  background: rgb(115, 98, 98);
+}

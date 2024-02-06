@@ -4,6 +4,12 @@
   padding: 16px 32px;
   font-weight: 500;
   display: inline-block;
-  background-color: #bcff5e;
   border-radius: 25px;
+}
+
+.button_lemon {
+  background-color: #bcff5e;
+}
+.button_yellow {
+  background-color: #ffca01;
 }
