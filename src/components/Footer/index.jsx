@@ -15,8 +15,8 @@ const Footer = () => {
       </div>
 
       <div className={styles.footer_nav}>
-        {links.map((link) => (
-          <a key={link} href="/home">
+        {links.map((link, id) => (
+          <a key={id} href="/home">
             {link.charAt(0).toUpperCase() + link.slice(1)}
           </a>
         ))}

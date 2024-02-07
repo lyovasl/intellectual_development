@@ -25,8 +25,8 @@ const Benefits = () => {
 
   return (
     <div className={styles.benefits}>
-      {benefits.map((item) => (
-        <BenefitsItems key={item} item={item} />
+      {benefits.map((item, id) => (
+        <BenefitsItems key={id} item={item} />
       ))}
     </div>
   );

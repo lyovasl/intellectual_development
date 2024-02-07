@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import useGetTrainers from "../../hooks/useGetTrainers";
 import ButtonLink from "../ButtonLink";
 import SectionTitle from "../SectionTitle";
+import TrainerImg from "../../assets/img/trainer_img.webp";
 import styles from "./index.module.css";
+import Trainers from "../Trainers";
 
 const TopTrainers = () => {
-  useGetTrainers();
+  const { trainers, getData } = useGetTrainers();
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <>
@@ -13,7 +20,16 @@ const TopTrainers = () => {
         <ButtonLink text="Our Trainers" path="/trainers" />
       </div>
       {/* trainers */}
-      <div className={styles.section_banner}></div>
+      <div className={styles.section_banner}>
+        {trainers.map((trainer, id) => (
+          <Trainers
+            key={id}
+            img={TrainerImg}
+            name={trainer.name}
+            company={trainer.company.name}
+          />
+        ))}
+      </div>
     </>
   );
 };
