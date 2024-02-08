@@ -19,12 +19,12 @@ const TopTrainers = () => {
         <SectionTitle title="TopTrainers" />
         <ButtonLink text="Our Trainers" path="/trainers" />
       </div>
-      {/* trainers */}
+
       {/* //todo create trainers Page */}
       <div className={styles.section_banner}>
         {trainers.map((trainer, id) => (
           <Trainers
-            id={id}
+            id={id + 1}
             key={id}
             img={TrainerImg}
             name={trainer.name}

@@ -8,12 +8,15 @@ const NavLinks = () => {
     },
     {
       path: "/search",
-
       name: "Search",
     },
     {
       path: "/about",
       name: "About",
+    },
+    {
+      path: "/trainers",
+      name: "Trainers",
     },
   ];
 
