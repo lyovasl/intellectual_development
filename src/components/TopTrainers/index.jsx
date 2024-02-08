@@ -20,9 +20,11 @@ const TopTrainers = () => {
         <ButtonLink text="Our Trainers" path="/trainers" />
       </div>
       {/* trainers */}
+      {/* //todo create trainers Page */}
       <div className={styles.section_banner}>
         {trainers.map((trainer, id) => (
           <Trainers
+            id={id}
             key={id}
             img={TrainerImg}
             name={trainer.name}
