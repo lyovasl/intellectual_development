@@ -25,37 +25,40 @@ const Trainers = () => {
       }}
     >
       <h1 style={{ margin: "0 0 10px 0" }}>Trainers Bio</h1>
-
-      <p style={{ margin: "0" }}>
-        <span style={{ fontSize: "14px", color: "black", fontWeight: "bold" }}>
+      <div style={{ fontWeight: "bold", fontSize: "14px", color: "black" }}>
+        <p style={{ margin: "0" }}>
           Name:&nbsp;
-        </span>
-        {singleTrainer?.data.name}
-      </p>
-      <p style={{ margin: "0" }}>
-        <span style={{ fontSize: "14px", color: "black", fontWeight: "bold" }}>
+          <span style={{ color: "green" }}> {singleTrainer?.data.name}</span>
+        </p>
+        <p>
           UserName:&nbsp;
-        </span>
-        {singleTrainer?.data.username}
-      </p>
-      <p style={{ margin: "0" }}>
-        <span style={{ fontSize: "14px", color: "black", fontWeight: "bold" }}>
-          Email:&nbsp;
-        </span>
-        {singleTrainer?.data.email}
-      </p>
-      <p style={{ margin: "0" }}>
-        <span style={{ fontSize: "14px", color: "black", fontWeight: "bold" }}>
+          <span style={{ color: "green" }}>{singleTrainer?.data.username}</span>
+        </p>
+        <p>
           City:&nbsp;
-        </span>
-        {singleTrainer?.data.address.city}
-      </p>
-      <p style={{ margin: "0" }}>
-        <span style={{ fontSize: "14px", color: "black", fontWeight: "bold" }}>
+          <span style={{ color: "green" }}>
+            {singleTrainer?.data.address.city}
+          </span>
+        </p>
+        <p>
+          Email:&nbsp;
+          <a
+            style={{ color: "green" }}
+            href={`mailto:${singleTrainer?.data.email}`}
+          >
+            {singleTrainer?.data.email}
+          </a>
+        </p>
+        <p>
           Phone:&nbsp;
-        </span>
-        {singleTrainer?.data.phone}
-      </p>
+          <a
+            style={{ color: "green" }}
+            href={`tel:${singleTrainer?.data.phone}`}
+          >
+            {singleTrainer?.data.phone}
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
