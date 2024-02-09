@@ -14,10 +14,6 @@ const NavLinks = () => {
       path: "/about",
       name: "About",
     },
-    {
-      path: "/trainers",
-      name: "Trainers",
-    },
   ];
 
   return (
